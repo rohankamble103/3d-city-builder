@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 3dcity
+  labels:
+    app: 3dcity
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 3d city
+  template:
+    metadata:
+      labels:
+        app: 3dcity
+    spec:
+      containers:
+        - name: 3dcity
+          image: 3dcity:v2
+          ports:
+            - containerPort: 8111
+
