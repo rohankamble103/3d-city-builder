@@ -5,7 +5,7 @@
 
 The goal is create 3d city builder to test performance for three.js webgl games<br>
 With minimum size impact and maximum speed.<br>
-3d side use [Three.js](https://github.com/mrdoob/three.js), GLSL 3d model made by me.<br>
+3d side use [Three.js](https://github.com/mrdoob/three.js), GLSL 3d model made by lo-th.<br>
 
 This game use simulation source micropolisJS by Graememcc, full convert to ES6<br>
 [https://github.com/graememcc/micropolisJS](https://github.com/graememcc/micropolisJS)<br>
